@@ -25,3 +25,13 @@ class TestsQuickStringReverser(AbstractStringReverserTests):
     """Concrete tests for QuickStringReverser."""
 
     reverser = QuickStringReverser()
+
+class TestsManualStringReverser(AbstractStringReverserTests):
+    """Concrete tests for ManualStringReverser."""
+
+    reverser = ManualStringReverser()
+
+class TestsRecursiveStringReverser(AbstractStringReverserTests):
+    """Concrete tests for RecursiveStringReverser."""
+
+    reverser = RecursiveStringReverser()
